@@ -1,0 +1,375 @@
+.befixx_home{
+  margin-top: 5rem;
+}
+
+.background_info {
+  background-image: url("../../assets/Bg.svg");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0rem auto 1rem auto;
+  padding: 1.5rem 4rem;
+}
+
+.title h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+.title p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+}
+
+.title_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.5rem 4rem;
+  margin: 0.5rem;
+}
+
+.title_buttons button {
+  background: black;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 0.5rem 2rem;
+  margin: auto 0.5rem;
+  color: #87ffff;
+}
+
+.title_buttons button:hover{
+  background: white;
+  color: black;
+  border: 2px solid #87ffff;
+}
+
+.input__padding {
+  padding: 1.5rem 6rem;
+}
+
+.all_inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  border: 0px solid white;
+  padding: 4rem;
+  margin: -2rem 10rem 2rem 10rem;
+  box-shadow: 0px 0px 7px #87ffff;
+}
+
+.location_option {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.form_select {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_field {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 500px;
+  border-radius: 5px;
+  background-color: #87ffff;
+}
+
+
+.search input[type="text"]:focus {
+  outline: 2px solid #00b8b8;
+}
+
+.search_button button {
+  background-color: black;
+  color: #87ffff;
+  border: none;
+  outline: none;
+  margin-left: 1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px black;
+}
+
+.search_button button:hover{
+  background-color: rgb(44, 44, 44);
+}
+
+.countup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 3rem 2rem 3rem;
+}
+
+.number .txt {
+  justify-content: center;
+}
+
+/*------------------------iconscard--onwards-----------------*/
+
+.befixx__dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dashboard-title h1 {
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: -0.04em;
+  margin-top: 1rem;
+}
+
+.dashboard-title p{
+  font-weight: 700;
+  font-size: 20px;
+  color: grey;
+}
+
+
+.dent__dashboard-wrapper {
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7rem, 12rem));
+  position: relative;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.category_button{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px black;
+}
+
+.category_button a{
+  justify-content: center;
+  align-items: center;
+  color: #87ffff;
+  font-size: 20px;
+  font-family: var(--font-family);
+  text-decoration: none;
+}
+
+/*---------responsive-banners-and-all inputs-------------*/
+
+@media only screen and (max-width: 1100px) {
+  .search input {
+    width: 300px;
+    border-radius: 5px;
+    background-color: #87ffff;
+  }
+
+  .all_inputs {
+    padding: 4rem;
+    margin: -2rem 5rem 4rem 5rem;
+    box-shadow: 0px 0px 7px #87ffff;
+  }
+}
+
+/*--------------------------900-------------------------*/
+
+@media only screen and (max-width: 900px) {
+  .all_inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search input {
+    width: 400px;
+    border-radius: 5px;
+    background-color: #87ffff;
+  }
+
+  .search_field {
+    margin-top: 1rem;
+  }
+
+  .title {
+    padding: 1rem 2rem;
+  }
+}
+
+/*---------750------------------------------------------*/
+
+@media only screen and (max-width: 750px) {
+  .input__padding {
+    padding: 0.5rem 4rem;
+  }
+
+  .all_inputs {
+    padding: 4rem;
+    margin: -1rem 2rem 1rem 2rem;
+  }
+  .title {
+    padding: 1rem 2rem;
+  }
+}
+
+/*-------------610-----------------------------------------*/
+@media only screen and (max-width: 610px) {
+  .title {
+    margin: 0rem auto 0rem auto;
+    padding: 1rem 4rem;
+  }
+
+  .all_inputs {
+    margin: -1rem 1rem 1rem 1rem;
+  }
+  .title {
+    padding: 0.5rem 2rem;
+  }
+}
+
+/*--------------550----------------------------------*/
+
+@media only screen and (max-width: 550px) {
+
+  .befixx_home{
+    margin-top: 4rem;
+  }
+  .input__padding {
+    padding: 0.5rem 1rem;
+  }
+  .search input {
+    width: 200px;
+  }
+
+  .title {
+    margin: 0rem auto 0rem auto;
+    padding: 0.5rem 4rem;
+  }
+
+  .title h2 {
+    font-size: 40px;
+  }
+  .title p{
+    font-size: 20px;
+  }
+
+  .title_buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .title_buttons button {
+    padding: 0.5rem 2rem;
+    margin: 0.5rem;
+  }
+
+  .all_inputs {
+    margin: -1rem 2rem 0.2rem 2rem;
+  }
+}
+
+/*------------------410------------------------------*/
+
+@media only screen and (max-width:410px){
+  .all_inputs {
+    padding: 3rem;
+    margin: -1rem 0.3rem 0.2rem 0.3rem;
+  }
+  .group {
+    margin: auto 1rem;
+  }
+  .title p{
+    font-size: 20px;
+  }
+}
+
+/*--------------350----------------------------------*/
+
+@media only screen and (max-width: 350px) {
+  .input__padding {
+    padding: 0.5rem 0.5rem;
+  }
+  .search input {
+    width: 200px;
+    padding: 0.2rem;
+  }
+  .search_button button {
+    margin-left: 0.5rem;
+    padding: 0.2rem 1rem;
+  }
+
+  .all_inputs {
+    padding: 3rem;
+    margin: -1rem 0.5rem 0.2rem 0.5rem;
+  }
+
+  .title {
+    padding: 0.2rem 3rem;
+  }
+
+  .title p{
+    font-size: 20px;
+  }
+
+  .countup {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .group {
+    margin: auto 1rem;
+  }
+}
