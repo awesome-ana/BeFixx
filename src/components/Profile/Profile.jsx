@@ -21,7 +21,7 @@ const Profile=()=>{
                 <button onClick={()=>history("/")}>Back</button>
             </div>
             <div className="profile_name">
-                <h2>DSingha</h2>
+                <h2>Username</h2>
                 <p>email@gmail.com</p>
             </div>
             </div>

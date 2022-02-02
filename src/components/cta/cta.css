@@ -20,6 +20,7 @@
 .gpt3__cta-content p {
     font-family: var(--font-family);
     font-weight: 500;
+    color: white;
 }
 
 .gpt3__cta-content h2 {

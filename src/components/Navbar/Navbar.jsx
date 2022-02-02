@@ -20,7 +20,7 @@ const Navbar = () => {
           <NavLink to="/home/favourites">Favourites</NavLink>
         </p>
         <p>
-          <NavLink to="/home/profile">Profile</NavLink>
+          <NavLink to="/home/profile">Sign up</NavLink>
         </p>
         <p>
           <NavLink to="/home/notification"><IoNotificationsSharp style={{width:"1.5rem", height:"1.5rem", color:"white"}}></IoNotificationsSharp></NavLink>

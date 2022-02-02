@@ -24,38 +24,38 @@ const Testimonial = () => {
           <Slider {...settings}>
             <div>
               <TesCarousel
-                title="I want you to know how much I appreciate the excellent service you provided.
-                I won't hesitate to bring our future clients to your service to grow
-                their business using your latest technology and great designs."
-                name="Suresh Raj"
-                company="Flixjar Founder"
+                title="Lorem Ipsum has been the industry's standard 
+                dummy text ever since the 1500s, when an unknown printer took a 
+                galley of type and scrambled it to make a type specimen book."
+                name="CEO name"
+                company="Company name"
               />
             </div>
             <div>
               <TesCarousel
-                title="This company provides the best service in best price. We recently have built our online
-                gaming mobile app from them and it's awesome. They even provide hosting and server services.
-                You can fully rely on them and be relaxed"
-                name="George Walter"
-                company="SmartDent"
+                title="Lorem Ipsum has been the industry's standard 
+                dummy text ever since the 1500s, when an unknown printer took a 
+                galley of type and scrambled it to make a type specimen book."
+                name="Founder name"
+                company="Company name"
               />
             </div>
             <div>
               <TesCarousel
-                title="Your company's hard work has not gone unnoticed. 
-                I and the entire senior management would like to congratulate you on doing a great job.
-                Keep working like this, and nothing will be able to stop you!"
-                name="Anurag Bose"
-                company="BeFixx"
+                title="Lorem Ipsum has been the industry's standard 
+                dummy text ever since the 1500s, when an unknown printer took a 
+                galley of type and scrambled it to make a type specimen book."
+                name="Owner name"
+                company="Company name"
               />
             </div>
             <div>
               <TesCarousel
-                title="Our team members can always depend on your quality work and effort. Excellent work!
-                You certainly are an industry expert in our niche.
-                Your out-of-the-box ideas are always welcomed at the company meetings. Keep inspiring others."
-                name="Jonathan Walls"
-                company="Readmyecg"
+                title="Lorem Ipsum has been the industry's standard 
+                dummy text ever since the 1500s, when an unknown printer took a 
+                galley of type and scrambled it to make a type specimen book."
+                name="CTO name"
+                company="Company name"
               />
             </div>
           </Slider>
